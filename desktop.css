@@ -1,0 +1,137 @@
+    .col-lg-1 {width: 8.33%;}
+    .col-lg-2 {width: 16.66%;}
+    .col-lg-3 {width: 25%;}
+    .col-lg-4 {width: 33.33%;}
+    .col-lg-5 {width: 41.66%;}
+    .col-lg-6 {width: 50%;}
+    .col-lg-7 {width: 58.33%;}
+    .col-lg-8 {width: 66.66%;}
+    .col-lg-9 {width: 75%;}
+    .col-lg-10 {width: 83.33%;}
+    .col-lg-11 {width: 91.66%;}
+    .col-lg-12 {width: 100%;}
+
+    /* navbar design starts */
+    .nav-logo{
+        text-align: left;
+    }
+    /* .nav-heading{
+        margin-top: 25px;
+    } */
+    .nav-heading h1{
+        text-align: left;
+        font-size: 2rem;
+    }
+    .nav-menu{
+        justify-content: flex-end;
+        margin-top: 10px;
+    }
+    .nav-menu a{
+        padding: 5px 10px;
+    }
+    /* navbar design ends */
+
+
+    /* profile design starts */
+    .profile .top-weather-icon{
+        right: 100px;
+        width: 100px;
+        transition: width 2s, transform 2s;
+    }
+    .profile .top-weather-icon:hover{
+        width: 120px;
+    }
+    .profile .bottom-weather-icon{
+        bottom: 20px;
+        left: 100px;
+        width: 100px;
+        transition: width 2s, transform 2s;
+    }
+    .profile .bottom-weather-icon:hover{
+        width: 120px;
+    }
+    .profile-desc h1{
+        font-size: 2.5rem;
+    }
+    .profile-desc p{
+        margin-bottom: 30px;
+        width: 50%;
+    }
+    /* profile design ends */
+
+    /* about design starts */
+    .dotted-hr{
+        margin-bottom: 40px;
+    }
+    .info{
+        width: 45%;
+    }
+    .about-image{
+        margin-top: 150px;
+    }
+    .about-image img{
+        width: 250px;
+        height: auto;
+    }
+    .about-image img:hover{
+        transform: scale(1.5);
+    }
+    .info p{
+        text-align: left;
+    }
+    /* about design ends */
+
+    /* professional experience design starts */
+    .card{
+        padding: 20px;
+        margin: 1%;
+        height: 1100px;
+    }
+    .card:hover{
+        box-shadow: 0 4px 8px 5px gray;
+        transition: 0.3s;
+    }
+    /* professional experience design endss */
+
+    /* achievement-contact design starts */
+    .achievement{
+        padding-right: 50px;
+    }
+    .contact{
+        margin: 0;
+        text-align: left;
+        padding-left: 5%;
+    }
+    .input-button{
+        width: 170px;
+        height: 45px;
+        margin-left: 0;
+    }
+    .contact-links{
+        padding-left: px;
+    }
+    .media-buttons{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: 200px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    /* achievement-contact design ends */
+
+    /* footer design starts */
+    .footer-menu{
+        margin: 20px 0;
+    }
+    .footer-menu a{
+        margin: 5px;
+        font-size: 1rem;
+    }
+    .footer-desc{
+        font-size: 1rem;
+        margin: 20px 0;
+    }
+    /* footer design endsssssss */
